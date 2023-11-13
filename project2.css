@@ -1,0 +1,49 @@
+.header{
+    text-align: center;
+}
+
+.guessed-container{
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 24px; 
+}
+
+.container {
+    background: url('notebook-paper-2.jpeg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #64c0c8;
+    color: white;
+    border-radius: 5px;
+}
+.index-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100px;
+    height: auto;
+}
+
+.hangman-image {
+    margin-top: -8px; /* Adjust the margin top as needed */
+    text-align:center; /* Center the image */
+}
+
+.hangman-image img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px; /* Adjust the margin left as needed */
+}
